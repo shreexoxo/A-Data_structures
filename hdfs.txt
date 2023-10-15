@@ -1,8 +1,0 @@
->>jps
->>start-dfs.sh && start-yarn.sh
->>jps
->>hdfs dfs --mkdir /user/test1
->>getdit one.txt                   #to create txt file
->>getdit two.txt
->>hdfs dfs -put one.txt two.txt /user/hive
->>hdfs dfs -cat /user/hive/two.txt   #to view the contents
